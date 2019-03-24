@@ -1,9 +1,9 @@
 class Homepage {
-  private readonly categoryDescription: string = "Tech & Coding";
+  private readonly categoryDescription: string = "Tech";
 
   public GetTechCourses(): void {
     cy.visit("");
-    cy.contains(this.categoryDescription).click();
+    cy.contains('div>ul>li>.m-grid__col',this.categoryDescription).click();
   }
 }
 
