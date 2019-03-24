@@ -1,9 +1,10 @@
 class Homepage {
+  private readonly categoriesCss: string = "div>ul>li>.m-grid__col";
   private readonly categoryDescription: string = "Tech";
 
   public GetTechCourses(): void {
     cy.visit("");
-    cy.contains('div>ul>li>.m-grid__col',this.categoryDescription).click();
+    cy.contains(this.categoriesCss, this.categoryDescription).click();
   }
 }
 
