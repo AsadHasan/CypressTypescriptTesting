@@ -1,0 +1,6 @@
+.vscode
+node_modules
+cypress/**/*.js
+!cypress/plugins/index.js
+screenshots
+videos
