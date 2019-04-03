@@ -1,4 +1,7 @@
 {
   "baseUrl": "https://www.futurelearn.com/",
-  "projectId": "p53zzs"
+  "projectId": "p53zzs",
+  "env": {
+    "cypress_record_key": "1b93178a-aa39-4df9-b4a7-c5d8f7c51674"
+  }
 }
