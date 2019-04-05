@@ -10,6 +10,6 @@ Basic automation testing of the https://www.futurelearn.com/ website, using Cypr
 1. Clone the solution to local environment.
 2. In the project root, execute:
 
-a- `npm install`
+a- To install packages required to run the tests: `npm install`
 
-b- `npm test`
+b- To execute the tests: `npm test`
